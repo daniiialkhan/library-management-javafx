@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../CSS/deleteBook.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller">
+   <children>
+      <Button fx:id="HomeButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#SwitchToMain" text="Home">
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font></Button>
+      <Text fill="#e1e0e0" layoutX="213.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Delete Your Book" wrappingWidth="227.5078125">
+         <font>
+            <Font name="Bookman Old Style Bold" size="23.0" />
+         </font>
+      </Text>
+      <TextField fx:id="IdToDelete" layoutX="260.0" layoutY="118.0" prefHeight="20.0" prefWidth="170.0" promptText="Enter ID here" />
+      <Text fill="#fcf6f6" layoutX="59.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter ID of Book To Delete:" />
+      <Button layoutX="449.0" layoutY="122.0" mnemonicParsing="false" onAction="#SearchToDeleteBook" text="Search for Book">
+         <font>
+            <Font size="11.0" />
+         </font></Button>
+      <Button layoutX="455.0" layoutY="336.0" mnemonicParsing="false" onAction="#DeleteBook" text="Delete Book" />
+      <Text fill="#b9b4b4" layoutX="317.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirm Delete?" />
+      <TextArea fx:id="output" editable="false" layoutX="96.0" layoutY="158.0" prefHeight="157.0" prefWidth="408.0">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>

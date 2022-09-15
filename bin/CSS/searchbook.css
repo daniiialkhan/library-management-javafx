@@ -1,0 +1,15 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.root{
+	//-fx-background-color: lightblue;
+	//=-fx-font-family:'JetBrains Mono;
+	-fx-font-size:20px;
+	-fx-font-weight: bold;
+	-fx-background-image:url("/application/libbg3.jpg");
+	//-fx-background-repeat: no repeat;
+	-fx-background-size: stretch;
+	
+}
+
+
+/*stylesheets="@../application/application.css"*/

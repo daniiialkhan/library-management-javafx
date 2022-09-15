@@ -1,0 +1,6 @@
+.root{
+	-fx-font-size:10px;
+	-fx-font-weight: bold;
+	-fx-background-image:url("/application/SBId.jpg");
+	-fx-background-size: stretch;
+}
